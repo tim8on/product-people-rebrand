@@ -1,0 +1,27 @@
+/* TABLET */
+@media screen and (max-width: 1310px) {
+    
+    
+    
+}
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+    
+    .border {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .border img {
+        top: 5px;
+        left: 5px;
+        width: 140px;
+        height: 140px;
+    }
+    
+    .text_container {
+        width: 70%;
+    }
+    
+}
