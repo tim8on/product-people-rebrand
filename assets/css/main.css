@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 }
 
+h4 {
+    font-size: 2em;
+}
+
 
 p { 
 	padding: 0; 
@@ -119,10 +123,20 @@ a:focus {
 }
 
 img {
-	padding-bottom: 10px;
+	padding-bottom: 2em;
+}
+
+#content-img {
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 15%;
 }
 
 /* FORM CONFIGURATION */
+
+form {
+   padding-left: 15%; 
+}
 
 input {
 	font-size: 16px;
@@ -148,19 +162,8 @@ input {
 	right: 0;
 }
 
-
-.btn-register {
-	margin-top: 15px;
-	border-radius: 50px;
-	margin-right: 10px;
-	top: 0px;
-	float: right;
-	font-size: 16px;
-}
-
 /* Overall Buttons*/
 .btn-theme {
-	border-radius: 50px;
 	font-size: 14px;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -220,94 +223,17 @@ input {
 	font-size: 16px;
 }
 
-
-/* Blue Section - Picton */
-#picton {
-	background: #59ABE3;
-	width: 100%;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	color: white;
-}
-
-#picton .col-md-6 {
-	padding-left: 0px;
-}
-
-#picton p {
-	color: #e9e9e9;
-	font-size: 16px;
-}
-
-/* Blue Section - Curious */
-#curious {
-	background: #3498DB;
-	width: 100%;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	color: white;
-}
-
-#curious .col-md-6 {
-	padding-right: 0px;
-}
-
-#curious p {
-	color: #e9e9e9;
-	font-size: 16px;
-}
-
-/* Blue Section - Malibu */
-#malibu {
-	background: #6BB9F0;
-	width: 100%;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	color: white;
-}
-
-#malibu .col-md-6 {
-	padding-left: 0px;
-}
-
-#malibu p {
-	color: #e9e9e9;
-	font-size: 16px;
-}
-
-/* Blue Section - Jelly */
-#jelly {
-	background: #2574A9;
-	width: 100%;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	color: white;
-}
-
-#jelly p {
-	color: #e9e9e9;
-	font-size: 16px;
-}
-
-#jelly h1 {
-	font-size: 200px;
-}
-
-#jelly h3 {
-	margin-top: 10px;
-}
-
 /* FOOTER */
 #f {
-	background: #2f2f2f;
+	background: #DFE4F5;
 	width: 100%;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: black;
 }
 
 #f p {
-	color: white;
+	color: black;
 }
 
 #f h4 {
@@ -319,12 +245,12 @@ input {
 
 /* CREDIT */
 #c {
-	background: black;
+	background: white;
 	padding: 20px;
 }
 
 #c p {
-	color: white;
+	color: black;
 	font-size: 13px;
 }
 
