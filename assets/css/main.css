@@ -195,7 +195,7 @@ input {
 
 #logo {
     margin-top: -3em;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.5em;
 }
 
@@ -230,7 +230,8 @@ input {
 #w {
 	background: white;
 	width: 100%;
-	padding-top: 3em;
+	padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 #w .col-md-6 {
@@ -243,6 +244,11 @@ input {
 }
 
 /* PRICES */
+#space {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
 .prices {
 	
 }
