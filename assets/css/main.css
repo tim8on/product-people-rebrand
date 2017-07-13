@@ -47,7 +47,6 @@ body {
 	clear: both;
 }
 .centered {text-align: center}
-.mt {margin-top: 50px;}
 .mb {margin-bottom: 50px;}
 .mtb {margin-top: 50px; margin-bottom: 50px;}
 .mtb2 { margin-top: 100px; margin-bottom: 100px;}
@@ -114,10 +113,10 @@ img {
 }
 
 #content-img {
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-top: 15%;
-    width: 623px;
+    width: 25em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 5em;
 }
 
 /* FORM CONFIGURATION */
@@ -190,7 +189,7 @@ input {
 }
 
 #rocket {
-    width: 400px;
+    width: 25em;
     padding-top: 5em;
 }
 
@@ -201,10 +200,6 @@ input {
 }
 
 /* BLACK SECTION */
-#blk {
-	padding-bottom: 2em;
-	padding-top: 2em;
-}
 
 #blk h5 {
 	letter-spacing: 1px;
@@ -231,7 +226,7 @@ input {
 #w {
 	background: white;
 	width: 100%;
-	padding-top: 5em;
+	padding-top: 8em;
     padding-bottom: 5em;
 }
 
@@ -246,7 +241,7 @@ input {
 
 /* PRICES */
 #space {
-    padding-top: 5em;
+    padding-top: 0em;
     padding-bottom: 5em;
 }
 
@@ -298,4 +293,39 @@ input {
 /* OVERFLOW */
 .of {
 	overflow: hidden;
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 1.5em;
+    }
+    
+    #title {
+        width: 14em;
+    }
+    
+    #blk {
+        padding-top: 0em;
+    }
+    
+    #w {
+        padding-top: 3em;
+        padding-bottom: 0em;
+    }
+    
+    #mobile-test {
+        margin-top: 6em;
+    }
+    
+    #mobile-price {
+        margin-top: 10em;
+    }
+    
+    #content-img {
+        width: 20em;
+        margin-left: 3.5em;
+        margin-right: 6em;
+    }
+
 }
