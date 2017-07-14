@@ -225,7 +225,7 @@ input {
 /* White Section */
 #w {
 	background: white;
-	width: 100%;
+	width: 1265px;
 	padding-top: 8em;
     padding-bottom: 5em;
 }
@@ -310,6 +310,7 @@ input {
     }
     
     #w {
+        width: 100%;
         padding-top: 3em;
         padding-bottom: 0em;
     }
